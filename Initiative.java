@@ -85,7 +85,7 @@ public class Initiative{
                                 System.out.println("Change complete, new hp is: "+mon.getHealth());
                             }
                             if(mon.getHealth()<=0){
-                            System.out.println(mon.getName()+" has been slain, removing from iniative");
+                            System.out.println(mon.getName()+" has been slain, removing from initiative");
                             monsters.remove(mon);
                             break;
                         }
